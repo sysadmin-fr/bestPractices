@@ -1,0 +1,19 @@
+kramdown:
+    input: GFM
+hard_wrap: false
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+
+include: ['_pages']
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
