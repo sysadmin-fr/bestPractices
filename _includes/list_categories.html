@@ -1,0 +1,10 @@
+{% for page in site.pages %}
+    {% if page.path contains "_page" %}
+        {% for categorie in page.categories %}
+            {% unless categories contains categorie %}
+                {% capture categories %}{{ categorie }},{{ categories }}{% endcapture %}
+            {% endunless %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+{% assign categories = categories | split: "," %}
