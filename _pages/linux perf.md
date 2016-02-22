@@ -45,3 +45,7 @@ le 1, c'est depuis le début des temps depuis le boot plutôt donc ça inclut le
 ## outils
 
 FIXME sar/cacti/jrds/collectd
+
+### Tool maps
+[![schemas](/bestPractices/images/linux_observability_tools.png "Linux Performance Observability Tools")](/bestPractices/images/linux_observability_tools.png) \\
+source: <http://brendangregg.com/linuxperf.html>
