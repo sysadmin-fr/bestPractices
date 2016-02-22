@@ -1,18 +1,16 @@
 <!-- Sidebar Column -->
-<div class="col-md-3">
-    <h2> Navigation </h2>
-    <ul id="mysidebar" class="nav">
-        {% for category in categories %}
-            <li>{{ category }}</li>
-            <ul>
-                {% for page in site.pages %}
-                    {% if page.path contains "_pages" %}
-                        {% if page.categories contains category %}
-                            <li> <a href="/bestPractices/{{ page.url }}" > {{ page.title }} </a> </li>
-                        {% endif %}
+<h2> Navigation </h2>
+<ul id="mysidebar" class="nav">
+    {% for category in categories %}
+        <li>{{ category }}</li>
+        <ul>
+            {% for page in site.pages %}
+                {% if page.path contains "_pages" %}
+                    {% if page.categories contains category %}
+                        <li> <a href="/bestPractices/{{ page.url }}" > {{ page.title }} </a> </li>
                     {% endif %}
-                {% endfor %}
-            </ul>
-        {% endfor %}
-    </ul>
-</div>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</ul>
