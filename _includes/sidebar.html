@@ -1,8 +1,15 @@
 <!-- Sidebar Column -->
-<h2> Navigation </h2>
-<ul id="mysidebar" class="nav">
+<h2>Navigation</h2>
+ <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
     {% for category in categories %}
-        <li>{{ category }}</li>
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#{{ category }}">{{ category }}</a>
+      </h4>
+    </div>
+    <div id="{{ category }}" class="panel-collapse collapse">
+      <div class="panel-body">
         <ul>
             {% for page in site.pages %}
                 {% if page.path contains "_pages" %}
@@ -12,5 +19,8 @@
                 {% endif %}
             {% endfor %}
         </ul>
+      </div>
+    </div>
     {% endfor %}
-</ul>
+  </div>
+ </div> 
