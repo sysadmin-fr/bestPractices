@@ -1,5 +1,5 @@
-bestPratice
-===========
+Best Pratices
+=============
 
 
 Pour consulter en local il faut alors installer jekyll (dans un monde idéal gem install jekyll).
