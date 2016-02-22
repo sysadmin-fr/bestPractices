@@ -7,7 +7,7 @@ categories: [Seminaires]
 
 ## Le programme 
 
-<http://sysadmin.asyd.net/>
+<http://sysadmin.asyd.net/programme-6>
 
 ## Les présentations 
 
