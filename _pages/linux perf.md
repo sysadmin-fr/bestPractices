@@ -5,7 +5,7 @@ title: Observer les performances sous Linux
 
 # Observer les performances sous Linux
 
-> 12:40 < FabriceB> une saturation est indicateur d'un bon usage des ressources, ce n'est pas un problème
+> <xxx> une saturation est indicateur d'un bon usage des ressources, ce n'est pas un problème en soi.
 
 ## packages
 
