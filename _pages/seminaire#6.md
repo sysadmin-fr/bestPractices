@@ -40,7 +40,11 @@ categories: [Seminaires]
 
 ### Crashkernel et analyses, par Adrien Mahieux
 
+<http://fr.slideshare.net/Saruspete/kernel-crashdump-53496836>
+
 ### Analyses et profiling applicatif, par Adrien Mahieux
+
+<http://fr.slideshare.net/Saruspete/system-performance-analysis>
 
 ### Conférences éclairs
 
