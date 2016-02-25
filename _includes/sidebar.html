@@ -8,7 +8,11 @@
         <a data-toggle="collapse" data-parent="#accordion" href="#{{ category }}">{{ category }}</a>
       </h4>
     </div>
+	{% if page.categories contains category %}
+    <div id="{{ category }}" class="panel-collapse collapse in">
+	{% else %}
     <div id="{{ category }}" class="panel-collapse collapse">
+	{% endif %}
       <div class="panel-body">
         <ul>
             {% for page in site.pages %}
