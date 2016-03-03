@@ -17,14 +17,15 @@ Le concept de l'OSCP stapling est d'incorporer la réponse OSCP lors de la négo
 
 # Serveurs Web
 
-## haproxy
+## HAProxy
 
 ```
 global 
    ssl-default-bind-ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256
    ssl-default-bind-options no-sslv3
 ```
-## apache
+
+## Apache
 
 # Serveurs mails
 
