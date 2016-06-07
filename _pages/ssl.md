@@ -7,7 +7,9 @@ title: Configuration de SSL
 
 ## Configuration des ciphers
 
-  * Voir https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations
+* https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations
+* https://mozilla.github.io/server-side-tls/ssl-config-generator/
+* https://cipherli.st/
 
 ## OSCP Stapling
 
